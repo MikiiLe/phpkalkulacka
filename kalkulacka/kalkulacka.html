@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jednoduchá kalkulačka</title>
+</head>
+<body>
+    <h2>Jednoduchá kalkulačka</h2>
+    <form method="post" action="calculator.php">
+        Číslo 1: <input type="number" step="any" name="num1" required><br><br>
+        Operace: 
+        <select name="operator" required>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br><br>
+        Číslo 2: <input type="number" step="any" name="num2" required><br><br>
+        <input type="submit" name="submit" value="Spočítat">
+    </form>
+
+    
+</body>
+</html>
